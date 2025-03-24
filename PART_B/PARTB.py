@@ -1,5 +1,5 @@
 import unittest
-from PARTA import Pet, Dog
+from PART_A.PARTA import Pet, Dog
 
 class CustomTestResult(unittest.TestResult):
     def addSuccess(self, test):
